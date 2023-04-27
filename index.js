@@ -3,6 +3,7 @@ binarydata = 101
 binarylistdata = []
 
 prompt.start();
+
 prompt.get(['binary'], function (err, result) {
     if (err) { return onErr(err); }
     binarydata = result.binary
